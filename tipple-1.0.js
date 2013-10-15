@@ -116,8 +116,8 @@
                 justReturn = justReturn || false;
         
                 var regex, matches;
-                var origs = this.filter('[tpl], [tpl-up]');
-                var clone = origs.first().clone().removeAttr('tpl tpl-up');
+                var origs = this.filter('[tpl], [tpl-each]');
+                var clone = origs.first().clone().removeAttr('tpl tpl-each');
                 var attribs = ['src'];
                 
                 // making the proper replacements
@@ -183,7 +183,7 @@
                 if (!justReturn) {
                     origs.each(function (i, orig) {
                         
-                        if ($(orig).is('[tpl-up]')) {
+                        if ($(orig).is('[tpl]')) {
                             $(orig).tipple(null);
                         }
                         
