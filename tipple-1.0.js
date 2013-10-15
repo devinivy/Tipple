@@ -3,9 +3,9 @@
     *  _||_
     * |    |
     * |    |
-    * |    |      Tipple
+    * |    |       Tipple
     * |~~~~|
-    * |_/\_| =D
+    * |_--_|  =]
     *
     *
     * Tipple is a simple JS templating solution.
@@ -196,3 +196,4 @@
             }
         }
     })(jQuery);
+    
