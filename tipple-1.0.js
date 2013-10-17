@@ -80,7 +80,7 @@
             },
             
             title: function (content) {
-                content = String(content).replace(/[^-'\s]+/g, function(word) {
+                content = String(content).replace(/[^-\s]+/g, function(word) {
                     return word.replace(/^./, function(first) {
                         return first.toUpperCase();
                     });
