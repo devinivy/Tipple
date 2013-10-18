@@ -1,0 +1,4 @@
+/* this is important so that your template skeletons don't show */
+[tpl], [tpl-each] {
+  display: none !important;
+}
