@@ -5,7 +5,7 @@
     * |    |
     * |    |       Tipple
     * |~~~~|
-    * |_--_|  =]
+    * |_==_|  =]
     *
     *
     * Tipple is a simple JS templating solution.
